@@ -6,7 +6,7 @@ var level=0;
 var score=0;
 var bestScore=0;
 
-$(document).keypress(function(Event){
+$(".buttS").click(function(Event){
     if(!started){
         $("h1").text("Level" + level);
         nextSequence();
