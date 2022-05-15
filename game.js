@@ -74,6 +74,7 @@ function startOver(){
     level=0;
     gamePattern=[];
     score=0;
+    $("a").removeClass("invisible");
     $("h2").text("Score: " + score + "Best Score: " + bestScore);
     started = false;
 }
