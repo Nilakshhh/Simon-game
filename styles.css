@@ -1,0 +1,59 @@
+body{
+    background-color: #570A57;
+}
+
+h1{
+    font-family: "Rajdhani";
+    text-align: center;
+    font-size: 120px;
+    color: #FFE59D;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+    color: #FFE59D;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+.game-over{
+    background-color: red;
+    opacity: 0.8;
+}
+.buttonArea{
+    text-align: center;
+    padding: 20px;
+}
+.butt1, .butt2, .butt3, .butt4{
+    border: solid 8px black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 40px;
+}
+.invisible{
+    opacity: 0;
+}
+a{
+    margin-left: 45%;
+    margin-right: 45%;
+    font-size: 30px;
+}
+.butt1{
+    background-color: red;
+}
+.butt2{
+    background-color: blue;
+}
+.butt3{
+    background-color: green;
+}
+.butt4{
+    background-color: yellow;
+}
+#footer{
+    color: #fff;
+    margin-top: 50px;
+}
